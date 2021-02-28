@@ -1,0 +1,90 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(wowfont.ttf);
+  }
+body{
+    background-color: #2c2f33;
+}
+h3{
+    text-align: center;
+    color: gold;
+    font-family: myFirstFont;
+}
+h4{
+    text-align: center;
+    color: gold;
+    font-family: myFirstFont;
+}
+h1 {
+    text-align: center;
+}
+.header{
+    background-color: #2c2f33;
+    padding: 10%;
+    color: gold;
+    text-align: center;
+    height: auto;
+    background-image: url(kepek/wowbg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    border-image-width: 50%;
+    background-size: cover;
+    font-family: myFirstFont;
+    }
+.footer{
+    background-color: #2c2f33;
+    padding: 1%;
+    color: #ff8000	;
+    text-align: center;
+    }
+section{
+    font-size: large;
+    }
+#section{
+    background-color: rgb(36, 21, 16);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#tablazat {
+    width: 75%;
+    text-align: center;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+ul{
+    list-style-image: url('kepek/wowli.png');
+    color: orange;
+}
+p{
+    color: orange;
+}
+.button1 {
+  transition-duration: 0.4s;
+  font-family: myFirstFont;
+  border: 2px solid blue;
+}
+
+.button1:hover {
+  background-color: blue;
+  color: white;
+}
+.button2 {
+    transition-duration: 0.4s;
+    font-family: myFirstFont;
+    border: 2px solid red;
+  }
+  
+.button2:hover {
+    background-color: red; 
+    color: white;
+  }
+.buttimg{
+    text-align: center;
+}
+.ikon{
+    height: auto;
+    width: 7%;
+}
